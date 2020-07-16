@@ -28,7 +28,6 @@ const operators = document.querySelectorAll('.operator');
 
 operators.forEach((operator) => {
     operator.addEventListener("click", (event) => {
-        console.log(event.target.value);
         inputOperator(event.target.value);
     })
 })
